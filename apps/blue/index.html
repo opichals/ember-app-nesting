@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Blue</title>
+
+        <style type="text/css"><!--
+            body {
+                background-color: transparent;
+            }
+
+            .app-blue {
+                background-color: lightblue;
+                display: inline-block;
+            }
+            .app-green {
+                background-color: lightgreen;
+                display: inline-block;
+            }
+            .app-red {
+                background-color: lightcoral;
+                display: inline-block;
+            }
+        --></style>
+    </head>
+
+    <body id="new" class="app loading blue" bgcolor="#fff">
+        <script src="../../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../../bower_components/handlebars/handlebars.js"></script>
+        <script src="../../bower_components/ember/ember.js"></script>
+        <script src="../integration.js"></script>
+        <script src="../green/green.js"></script>
+        <script src="../red/red.js"></script>
+        <script src="blue.js"></script>
+        <script>
+            Blue.advanceReadiness();
+        </script>
+    </body>
+</html>

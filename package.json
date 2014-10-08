@@ -1,0 +1,12 @@
+{
+  "name": "ember-app-nesting",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "bower": "*",
+    "http-server": "*"
+  }
+}
