@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "node node_modules/bower/bin/bower install"
   },
-  "devDependencies": {
+  "dependencies": {
     "bower": "*",
     "http-server": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
